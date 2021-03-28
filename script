@@ -1,0 +1,1769 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local S = Instance.new("ScreenGui")
+local foKazpWbFD = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local menu = Instance.new("Frame")
+local scriptmaking = Instance.new("TextButton")
+local server = Instance.new("TextButton")
+local guis = Instance.new("TextButton")
+local scriptmaking_2 = Instance.new("Frame")
+local remotespy = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local coordinates = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local dex = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+local server_2 = Instance.new("Frame")
+local nolegs = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local faceless = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local guis_2 = Instance.new("Frame")
+local remotespy_2 = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+local building = Instance.new("Frame")
+local TextButton_7 = Instance.new("TextButton")
+local dex_2 = Instance.new("Frame")
+local TextButton_8 = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local TextButton_9 = Instance.new("TextButton")
+local XVpvw8r8UK = Instance.new("Frame")
+local TextButton_10 = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local GHyiyuUIY = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local bck = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+S.Name = "刌֟|S񌤓"
+S.Parent = game.CoreGui
+S.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+foKazpWbFD.Name = "foKazpWbFD"
+foKazpWbFD.Parent = S
+foKazpWbFD.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+foKazpWbFD.BorderSizePixel = 0
+foKazpWbFD.Position = UDim2.new(0.372794122, 0, 0.240234375, 0)
+foKazpWbFD.Size = UDim2.new(0, 370, 0, 201)
+
+Frame.Parent = foKazpWbFD
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(1, 0, 1, 0)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.340540558, 0, 0.0646766126, 0)
+TextLabel.Size = UDim2.new(0.31621623, 0, 0.184079602, 0)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "Glitcher"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+menu.Name = "menu"
+menu.Parent = Frame
+menu.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+menu.BorderSizePixel = 0
+menu.Position = UDim2.new(0.0216216221, 0, 0.174129352, 0)
+menu.Size = UDim2.new(0.270270258, 0, 0.776119351, 0)
+
+scriptmaking.Name = "scriptmaking"
+scriptmaking.Parent = menu
+scriptmaking.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+scriptmaking.BorderSizePixel = 0
+scriptmaking.Position = UDim2.new(0.0599999987, 0, 0.0384615399, 0)
+scriptmaking.Size = UDim2.new(0, 88, 0, 27)
+scriptmaking.Visible = false
+scriptmaking.ZIndex = 2
+scriptmaking.Font = Enum.Font.GothamSemibold
+scriptmaking.Text = "Script Making"
+scriptmaking.TextColor3 = Color3.fromRGB(255, 255, 255)
+scriptmaking.TextSize = 13.000
+
+server.Name = "server"
+server.Parent = menu
+server.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+server.BorderSizePixel = 0
+server.Position = UDim2.new(0.0599999987, 0, 0.25, 0)
+server.Size = UDim2.new(0, 88, 0, 27)
+server.Visible = false
+server.ZIndex = 2
+server.Font = Enum.Font.GothamSemibold
+server.Text = "Server"
+server.TextColor3 = Color3.fromRGB(255, 255, 255)
+server.TextSize = 13.000
+
+guis.Name = "guis"
+guis.Parent = menu
+guis.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+guis.BorderSizePixel = 0
+guis.Position = UDim2.new(0.0599999987, 0, 0.460000008, 0)
+guis.Size = UDim2.new(0, 88, 0, 27)
+guis.Visible = false
+guis.ZIndex = 2
+guis.Font = Enum.Font.GothamSemibold
+guis.Text = "GUIs"
+guis.TextColor3 = Color3.fromRGB(255, 255, 255)
+guis.TextSize = 13.000
+
+scriptmaking_2.Name = "scriptmaking"
+scriptmaking_2.Parent = Frame
+scriptmaking_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+scriptmaking_2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+scriptmaking_2.BorderSizePixel = 0
+scriptmaking_2.Position = UDim2.new(0.318918914, 0, 0.313432842, 0)
+scriptmaking_2.Size = UDim2.new(0.659459472, 0, 0.636815906, 0)
+
+remotespy.Name = "remotespy"
+remotespy.Parent = scriptmaking_2
+remotespy.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+remotespy.BorderColor3 = Color3.fromRGB(40, 40, 40)
+remotespy.Position = UDim2.new(0.586442292, 0, 0.143734455, 0)
+remotespy.Size = UDim2.new(0, 86, 0, 28)
+remotespy.Visible = false
+remotespy.ZIndex = 3
+
+TextButton.Parent = remotespy
+TextButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.00308084488, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 86, 0, 28)
+TextButton.ZIndex = 3
+TextButton.Font = Enum.Font.GothamSemibold
+TextButton.Text = "Remotes (F9)"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 13.000
+
+coordinates.Name = "coordinates"
+coordinates.Parent = scriptmaking_2
+coordinates.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+coordinates.BorderColor3 = Color3.fromRGB(40, 40, 40)
+coordinates.Position = UDim2.new(0.0577537604, 0, 0.143734455, 0)
+coordinates.Size = UDim2.new(0, 86, 0, 28)
+coordinates.Visible = false
+coordinates.ZIndex = 3
+
+TextButton_2.Parent = coordinates
+TextButton_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(-0.00854706764, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 86, 0, 28)
+TextButton_2.ZIndex = 3
+TextButton_2.Font = Enum.Font.GothamSemibold
+TextButton_2.Text = "Coordinates"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 13.000
+
+dex.Name = "dex"
+dex.Parent = scriptmaking_2
+dex.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+dex.BorderColor3 = Color3.fromRGB(40, 40, 40)
+dex.Position = UDim2.new(0.0577537417, 0, 0.456234455, 0)
+dex.Size = UDim2.new(0, 86, 0, 28)
+dex.Visible = false
+dex.ZIndex = 3
+
+TextButton_3.Parent = dex
+TextButton_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(-0.00854706764, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 86, 0, 28)
+TextButton_3.ZIndex = 3
+TextButton_3.Font = Enum.Font.GothamSemibold
+TextButton_3.Text = "Dex Explorer"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 13.000
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 2.000
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.0216216221, 0, 0.0298507456, 0)
+ImageButton.Size = UDim2.new(0, 27, 0, 29)
+ImageButton.Image = "rbxassetid://6375537318"
+ImageButton.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+server_2.Name = "server"
+server_2.Parent = Frame
+server_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+server_2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+server_2.BorderSizePixel = 0
+server_2.Position = UDim2.new(0.318918914, 0, 0.313432842, 0)
+server_2.Size = UDim2.new(0.659459472, 0, 0.636815906, 0)
+
+nolegs.Name = "nolegs"
+nolegs.Parent = server_2
+nolegs.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+nolegs.BorderColor3 = Color3.fromRGB(40, 40, 40)
+nolegs.Position = UDim2.new(0.586442292, 0, 0.143734455, 0)
+nolegs.Size = UDim2.new(0, 86, 0, 28)
+nolegs.Visible = false
+nolegs.ZIndex = 3
+
+TextButton_4.Parent = nolegs
+TextButton_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.00308084488, 0, 0, 0)
+TextButton_4.Size = UDim2.new(0, 86, 0, 28)
+TextButton_4.ZIndex = 3
+TextButton_4.Font = Enum.Font.GothamSemibold
+TextButton_4.Text = "No Legs"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 13.000
+
+faceless.Name = "faceless"
+faceless.Parent = server_2
+faceless.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+faceless.BorderColor3 = Color3.fromRGB(40, 40, 40)
+faceless.Position = UDim2.new(0.0577537604, 0, 0.143734455, 0)
+faceless.Size = UDim2.new(0, 86, 0, 28)
+faceless.Visible = false
+faceless.ZIndex = 3
+
+TextButton_5.Parent = faceless
+TextButton_5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(-0.00854706764, 0, 0, 0)
+TextButton_5.Size = UDim2.new(0, 86, 0, 28)
+TextButton_5.ZIndex = 3
+TextButton_5.Font = Enum.Font.GothamSemibold
+TextButton_5.Text = "Faceless"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 13.000
+
+guis_2.Name = "guis"
+guis_2.Parent = Frame
+guis_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+guis_2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+guis_2.BorderSizePixel = 0
+guis_2.Position = UDim2.new(0.318918914, 0, 0.313432842, 0)
+guis_2.Size = UDim2.new(0.659459472, 0, 0.636815906, 0)
+
+remotespy_2.Name = "remotespy"
+remotespy_2.Parent = guis_2
+remotespy_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+remotespy_2.BorderColor3 = Color3.fromRGB(40, 40, 40)
+remotespy_2.Position = UDim2.new(0.586442292, 0, 0.143734455, 0)
+remotespy_2.Size = UDim2.new(0, 86, 0, 28)
+remotespy_2.Visible = false
+remotespy_2.ZIndex = 3
+
+TextButton_6.Parent = remotespy_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.Position = UDim2.new(0.00308084488, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0, 86, 0, 28)
+TextButton_6.ZIndex = 3
+TextButton_6.Font = Enum.Font.GothamSemibold
+TextButton_6.Text = "Remotes (F9)"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 13.000
+
+building.Name = "building"
+building.Parent = guis_2
+building.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+building.BorderColor3 = Color3.fromRGB(40, 40, 40)
+building.Position = UDim2.new(0.0577537604, 0, 0.143734455, 0)
+building.Size = UDim2.new(0, 86, 0, 28)
+building.Visible = false
+building.ZIndex = 3
+
+TextButton_7.Parent = building
+TextButton_7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.Position = UDim2.new(-0.00854706764, 0, 0, 0)
+TextButton_7.Size = UDim2.new(0, 86, 0, 28)
+TextButton_7.ZIndex = 3
+TextButton_7.Font = Enum.Font.GothamSemibold
+TextButton_7.Text = "Building GUI"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 13.000
+
+dex_2.Name = "dex"
+dex_2.Parent = guis_2
+dex_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+dex_2.BorderColor3 = Color3.fromRGB(40, 40, 40)
+dex_2.Position = UDim2.new(0.0577537417, 0, 0.456234455, 0)
+dex_2.Size = UDim2.new(0, 86, 0, 28)
+dex_2.Visible = false
+dex_2.ZIndex = 3
+
+TextButton_8.Parent = dex_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.Position = UDim2.new(-0.00854706764, 0, 0, 0)
+TextButton_8.Size = UDim2.new(0, 86, 0, 28)
+TextButton_8.ZIndex = 3
+TextButton_8.Font = Enum.Font.GothamSemibold
+TextButton_8.Text = "Dex Explorer"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 13.000
+
+Frame_2.Parent = guis_2
+Frame_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-1.6926229, 0, -0.4453125, 0)
+Frame_2.Size = UDim2.new(0.893442631, 0, 1.25, 0)
+Frame_2.Visible = false
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.24311927, 0, 0.0437499993, 0)
+TextLabel_2.Size = UDim2.new(0.504676938, 0, 0.225000024, 0)
+TextLabel_2.Font = Enum.Font.Code
+TextLabel_2.Text = "Glitcher"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0412844047, 0, 0.275000006, 0)
+TextLabel_3.Size = UDim2.new(0.917431176, 0, 0.412499994, 0)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "REQUIRED 10 FREE FEDORAS EQUIPPED, Join their discord for the key."
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = TextLabel_3
+UIAspectRatioConstraint.AspectRatio = 3.030
+
+UIAspectRatioConstraint_2.Parent = Frame_2
+UIAspectRatioConstraint_2.AspectRatio = 1.362
+
+TextButton_9.Parent = Frame_2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.Position = UDim2.new(0.0412844047, 0, 0.743749976, 0)
+TextButton_9.Size = UDim2.new(0, 200, 0, 21)
+TextButton_9.Font = Enum.Font.Code
+TextButton_9.Text = "Understood!"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+XVpvw8r8UK.Name = "XVpvw8r8UK"
+XVpvw8r8UK.Parent = S
+XVpvw8r8UK.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+XVpvw8r8UK.BorderSizePixel = 0
+XVpvw8r8UK.Position = UDim2.new(0.201470584, 0, 0.3046875, 0)
+XVpvw8r8UK.Size = UDim2.new(0.59632349, 0, 0.390625, 0)
+XVpvw8r8UK.Visible = false
+
+TextButton_10.Parent = XVpvw8r8UK
+TextButton_10.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton_10.BorderColor3 = Color3.fromRGB(170, 0, 0)
+TextButton_10.Position = UDim2.new(0.380037338, 0, 0.730000019, 0)
+TextButton_10.Size = UDim2.new(0, 193, 0, 29)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Exit"
+TextButton_10.TextColor3 = Color3.fromRGB(170, 0, 0)
+TextButton_10.TextSize = 28.000
+
+TextBox.Parent = XVpvw8r8UK
+TextBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextBox.BorderColor3 = Color3.fromRGB(170, 0, 0)
+TextBox.Position = UDim2.new(0.30423066, 0, 0.210000008, 0)
+TextBox.Size = UDim2.new(0, 317, 0, 89)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.Code
+TextBox.Text = "You are not whitelisted! to whitelist, join the group and post on the groupwall \"Glitcher\" and wait for Glitch_re to rank you!"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextLabel_4.Parent = XVpvw8r8UK
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.00246609119, 0, 0.0350000001, 0)
+TextLabel_4.Size = UDim2.new(0, 806, 0, 26)
+TextLabel_4.Font = Enum.Font.Code
+TextLabel_4.Text = "https://www.roblox.com/groups/4113414/SCP-foundation-US-Administrative-Department#!/about"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 17.000
+TextLabel_4.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = XVpvw8r8UK
+UIAspectRatioConstraint_3.AspectRatio = 4.055
+
+GHyiyuUIY.Name = "GHyiyuUIY"
+GHyiyuUIY.Parent = S
+GHyiyuUIY.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+GHyiyuUIY.BorderSizePixel = 0
+GHyiyuUIY.Position = UDim2.new(0.388970613, 0, 0.3125, 0)
+GHyiyuUIY.Size = UDim2.new(0, 325, 0, 127)
+
+TextLabel_5.Parent = GHyiyuUIY
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.340540588, 0, 0.0882986635, 0)
+TextLabel_5.Size = UDim2.new(0.31621623, 0, 0.184079602, 0)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.Code
+TextLabel_5.Text = "Glitcher"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Frame_3.Parent = GHyiyuUIY
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.0861538425, 0, 0.472440958, 0)
+Frame_3.Size = UDim2.new(0, 0, 0, 31)
+Frame_3.ZIndex = 2
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(182, 141, 159)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(64, 96, 161))}
+UIGradient.Parent = Frame_3
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Frame_3
+
+bck.Name = "bck"
+bck.Parent = GHyiyuUIY
+bck.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+bck.BorderColor3 = Color3.fromRGB(20, 20, 20)
+bck.Position = UDim2.new(0.08615385, 0, 0.472440958, 0)
+bck.Size = UDim2.new(0, 270, 0, 31)
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = bck
+
+-- Scripts:
+
+local function GGLE_fake_script() -- foKazpWbFD.LocalScript 
+	local script = Instance.new('LocalScript', foKazpWbFD)
+
+	
+	local MenuScreen = script.Parent
+	MenuScreen:TweenSize(UDim2.new(0, 370,0, 0), "Out", "Quad", 0)
+end
+coroutine.wrap(GGLE_fake_script)()
+local function KXZRFA_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do wait(0.005)--Loop
+		script.Parent.Text="Glitcher"--Changes The glitch text to the right text
+		script.Parent.Rotation=script.Parent.Rotation+math.random(-1,1)--Rotates it Randomly from -1,1
+		if script.Parent.Rotation>=25.001 then--Caps Rotation At 25
+			script.Parent.Rotation=25
+		else if script.Parent.Rotation<=-25.001 then --Caps Rotation At -25
+				script.Parent.Rotation=-25
+			end
+		end
+	end
+end
+coroutine.wrap(KXZRFA_fake_script)()
+local function FPBZJOP_fake_script() -- TextLabel.rainbow 
+	local script = Instance.new('Script', TextLabel)
+
+	while true do 
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(i, 0, n)
+	wait() 
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(n, i, 0)
+	wait()
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(0, n, i)
+	wait() 
+	end 
+	end
+end
+coroutine.wrap(FPBZJOP_fake_script)()
+local function SZRW_fake_script() -- Frame.Script 
+	local script = Instance.new('Script', Frame)
+
+	script.Parent.Visible = false
+end
+coroutine.wrap(SZRW_fake_script)()
+local function OKQVU_fake_script() -- scriptmaking.LocalScript 
+	local script = Instance.new('LocalScript', scriptmaking)
+
+	local ayas = true
+	local frame = script.Parent.Parent.Parent.scriptmaking
+	local cd = 0.6
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if ayas == true then
+			ayas = false
+			frame:TweenSize(UDim2.new(0, 244,0, 128), "Out", "Quad", 0.5)
+			wait(0.5)
+			frame.coordinates.Visible = true
+			frame.remotespy.Visible = true
+			frame.dex.Visible = true
+			wait(cd)
+		else
+			ayas = true
+			frame:TweenSize(UDim2.new(0, 244,0, 0), "Out", "Quad", 0.5)
+			frame.remotespy.Visible = false
+			frame.coordinates.Visible = false
+			frame.dex.Visible = false
+			wait(cd)
+		end
+	end)
+end
+coroutine.wrap(OKQVU_fake_script)()
+local function YDRZJ_fake_script() -- menu.LocalScript 
+	local script = Instance.new('LocalScript', menu)
+
+	script.Parent:TweenSize(UDim2.new(0, 100,0, 0), "Out", "Quad", 0)
+end
+coroutine.wrap(YDRZJ_fake_script)()
+local function YQCGWW_fake_script() -- server.LocalScript 
+	local script = Instance.new('LocalScript', server)
+
+	local ayas = true
+	local frame = script.Parent.Parent.Parent.server
+	local cd = 0.6
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if ayas == true then
+			ayas = false
+			frame:TweenSize(UDim2.new(0, 244,0, 128), "Out", "Quad", 0.5)
+			wait(0.5)
+			frame.nolegs.Visible = true
+			frame.faceless.Visible = true
+			wait(cd)
+		else
+			ayas = true
+			frame:TweenSize(UDim2.new(0, 244,0, 0), "Out", "Quad", 0.5)
+			frame.nolegs.Visible = false
+			frame.faceless.Visible = false
+			wait(cd)
+		end
+	end)
+end
+coroutine.wrap(YQCGWW_fake_script)()
+local function TPIBRB_fake_script() -- guis.LocalScript 
+	local script = Instance.new('LocalScript', guis)
+
+	local ayas = true
+	local frame = script.Parent.Parent.Parent.guis
+	local cd = 0.6
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if ayas == true then
+			ayas = false
+			frame:TweenSize(UDim2.new(0, 244,0, 128), "Out", "Quad", 0.5)
+			wait(0.5)
+			frame.building.Visible = true
+			wait(cd)
+		else
+			ayas = true
+			frame:TweenSize(UDim2.new(0, 244,0, 0), "Out", "Quad", 0.5)
+			frame.building.Visible = false
+			wait(cd)
+		end
+	end)
+end
+coroutine.wrap(TPIBRB_fake_script)()
+local function QBSTDNR_fake_script() -- scriptmaking_2.LocalScript 
+	local script = Instance.new('LocalScript', scriptmaking_2)
+
+	script.Parent:TweenSize(UDim2.new(0, 244,0, 0), "Out", "Quad", 0)
+end
+coroutine.wrap(QBSTDNR_fake_script)()
+local function POGZQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Remotes (F9)"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Remotes (F9)"
+		wait(1)
+	end
+end
+coroutine.wrap(POGZQ_fake_script)()
+local function IPAZCKM_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		
+		local hookfunc = hookfunction or replaceclosure or replace_closure;
+	
+		spawn(function()
+			local cGui = game:GetService'CoreGui';
+			local consoleUI = cGui:FindFirstChild('DevConsoleMaster') or cGui:WaitForChild('DevConsoleMaster');
+			local clientLog = consoleUI:FindFirstChild('ClientLog', true);
+			if not clientLog then
+				repeat wait()
+				until consoleUI:FindFirstChild('ClientLog', true);
+				clientLog = consoleUI:FindFirstChild('ClientLog', true);
+			end;
+			for i,v in next, clientLog:GetChildren() do
+				if v:FindFirstChild'msg' then
+					v.InputBegan:Connect(function(input)
+						if input.UserInputType == Enum.UserInputType.MouseButton1 then
+							setclipboard(v.msg.Text);
+						end;
+					end);
+				end;
+			end;
+	
+			clientLog.ChildAdded:Connect(function(obj)
+				if not obj:FindFirstChild'msg' then obj:WaitForChild'msg'; end;
+				obj.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseButton1 then
+						setclipboard(obj.msg.Text);
+					end;
+				end);
+			end);
+		end);
+	
+		local enabled = {
+			BindableEvent	= false,
+			BindableFunction = false,
+			RemoteEvent	  = true,
+			RemoteFunction   = true
+		}
+	
+		local ignore = {
+		--[[ -- I'd personally recommend keeping this commented out, as game scripts can name their remotes these
+		GetSetting = true,
+		GetSelection = true,
+		SelectionChanged = true,
+		GetAwaiting = true
+		--]]
+		}
+	
+		local metatable = assert(getrawmetatable, "needs access to function 'getrawmetatable'")(game)
+		if setreadonly then
+			setreadonly(metatable, false)
+		end
+	
+		local function CountTable(t)
+			local count, key = 0
+			repeat
+				key = next(t, key)
+				if key ~= nil then
+					count = count + 1
+				end
+			until key == nil
+			return count
+		end
+	
+		local Globals = {
+			CFrame = 'CFrame.new(-)';
+			Vector3 = 'Vector3.new(-)';
+			Vector2 = 'Vector2.new(-)';
+			UDim2 = 'UDim2.new(-)';
+			Axis = 'Axis.new(-)';
+			BrickColor = 'BrickColor.new(-)';
+			Color3 = 'Color3.new(-)';
+			ColorSequence = 'ColorSequence.new(-)';
+			Region3 = 'Region3.new(-)';
+			TweenInfo = 'TweenInfo.new(-)';
+			NumberSequence = 'NumberSequence.new(-)';
+			Random = 'Random.new(-)';
+			NumberRange = 'NumberRange.new(-)';
+			Axis = 'Axis.new(-)';
+		};
+	
+		local PrintTable
+		local function ParseObject(object, spacing, scope, checkedTables, keyBool)
+			spacing = keyBool and spacing .. '[' or spacing;
+			local objectType = type(object)
+			if Globals[typeof(object)] then
+				return spacing .. Globals[typeof(object)]:gsub('-', tostring(object));
+			elseif typeof(object) == 'Instance' then
+				return spacing .. object:GetFullName();
+			elseif objectType == "string" then
+				return spacing .. string.format("%q", object)
+			elseif objectType == "nil" then
+				return spacing .. "nil"
+			elseif objectType == "table" then
+				if checkedTables[object] then
+					return spacing .. tostring(object) .. " [recursive table]"
+				else
+					checkedTables[object] = true
+					return spacing .. PrintTable(object, scope + 1, checkedTables)
+				end
+			elseif objectType == "userdata" then
+				if typeof(object) == "userdata" then
+					return spacing .. "userdata"
+				else
+					return spacing .. tostring(object)
+				end
+			else -- userdata, function, boolean, thread, number
+				return spacing .. tostring(object)
+			end
+		end
+	
+	
+	
+		function PrintTable(t, scope, checkedTables)
+			local mt = getrawmetatable(t)
+			local backup = {}
+			if mt and mt ~= t then
+				for i, v in pairs(mt) do
+					rawset(backup, i, v)
+					rawset(mt, i, nil)
+				end
+			end
+	
+			checkedTables = checkedTables or {}
+			scope = scope or 1
+			local result = (checkedTables and "{" or "") .. "\n"
+			local spacing = string.rep("    ", scope)
+			local function parse(index, value)
+				result = result .. ParseObject(index, spacing, scope, checkedTables, true) .. "] = " .. ParseObject(value, "", scope, checkedTables) .. "\n"
+			end
+	
+			if CountTable(t) ~= #t then
+				table.foreach(t, parse) -- I'm very aware this is a deprecated function
+			else
+				for index = 1, select("#", unpack(t)) do
+					parse(index, t[index])
+				end
+			end
+	
+			if mt and mt ~= t then
+				for i, v in pairs(mt) do
+					rawset(mt, rawget(backup, i), v)
+				end
+			end
+	
+			return result .. string.sub(spacing, 4, #spacing - 1) .. (checkedTables and "}" or "")
+		end
+	
+		local methods = {
+			BindableEvent = "Fire",
+			BindableFunction = "Invoke",
+			RemoteEvent = "FireServer",
+			RemoteFunction = "InvokeServer"
+		}
+	
+	
+		local __namecall = __namecall or metatable.__namecall
+		local __index = __index or metatable.__index
+		if getgenv then
+			if removeSpy then
+				removeSpy()
+			end
+			getgenv().__namecall = __namecall
+			getgenv().__index = __index
+			getgenv().removeSpy = function()
+				getgenv().removeSpy = nil
+				metatable.__namecall = __namecall
+				metatable.__index = __index
+			end
+		end
+	
+		local function LocalizedRemoteCallback(class)
+			return newcclosure(function(self, ...)
+				if typeof(self) ~= "Instance" then
+					error(select(2, pcall(methods[class], self)), 0)
+				end
+	
+				if self.ClassName ~= class then
+					error(select(2, pcall(methods[class], self)), 0)
+				end
+	
+				local arguments = {...};
+				local result	= {};
+	
+				local callerScript = rawget(getfenv(0), "script")
+				callerScript = typeof(callerScript) == "Instance" and callerScript or nil
+	
+				if enabled[self.ClassName] and (not ignore[self.Name]) then
+					print(string.format(
+						"%s called!\nFrom Script: %s\nPath: %s\nArguments: %s\nReturn: %s",
+						self.ClassName,
+						tostring(not callerScript and "Not Found" or callerScript:GetFullName()),
+						(not self.Parent and "[NIL]: " or "") .. self:GetFullName(),
+						CountTable(arguments) == 0 and "None!" or PrintTable(arguments),
+						CountTable(result) == 0 and "None!" or PrintTable(result)
+						))
+				end
+	
+				return unpack({methods[class](self, ...)})
+			end)
+		end
+	
+		LocalizedRemoteCallback  = newcclosure(LocalizedRemoteCallback)
+	
+		for className, func in next, methods do
+			methods[className] = hookfunc(Instance.new(className)[func], LocalizedRemoteCallback(className))
+		end
+	
+		local function IsAuthorized(self, index)
+			local map = {
+				BindableEvent = "Fire",
+				BindableFunction = "Invoke",
+				RemoteEvent = "FireServer",
+				RemoteFunction = "InvokeServer"
+			}
+	
+	
+			if (not map[self.ClassName]) then
+				return false
+			end
+	
+			if (not rawequal(map[self.ClassName], index)) then
+				return false;
+			end  
+	
+			if (ignore[self.Name]) or (not enabled[self.ClassName]) then
+				return false
+			end
+	
+			return true;
+		end
+	
+		local LuaU = isluau()
+	
+		local RemoteCallback = newcclosure(function(self, ...)
+			if typeof(self) ~= "Instance" then
+				return error(select(2, pcall(__index, self))) -- magic
+			end
+	
+			local arguments = {...}	
+			local result = {}
+			local callerScript = rawget(getfenv(0), "script")
+			callerScript = typeof(callerScript) == "Instance" and callerScript or nil
+			print(string.format(
+				"%s called!\nFrom Script: %s\nPath: %s\nArguments: %s\nReturn: %s",
+				self.ClassName,
+				tostring(not callerScript and "Not Found" or callerScript:GetFullName()),
+				(not self.Parent and "[NIL]: " or "") .. self:GetFullName(),
+				CountTable(arguments) == 0 and "None!" or PrintTable(arguments),
+				CountTable(result) == 0 and "None!" or PrintTable(result)
+				))
+			return unpack({methods[self.ClassName](self, ...)})
+		end)
+	
+		function metatable:__namecall(...)
+			local arguments = {...}
+			local index = LuaU and getnamecallmethod() or table.remove(arguments)
+			if IsAuthorized(self, index) then
+				return RemoteCallback(self, unpack(arguments))
+			end
+			return __namecall(self, ...)
+		end
+	
+		metatable.__namecall = newcclosure(metatable.__namecall)
+	end)
+end
+coroutine.wrap(IPAZCKM_fake_script)()
+local function ZLKHQFP_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Coordinates"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Coordinates"
+		wait(1)
+	end
+end
+coroutine.wrap(ZLKHQFP_fake_script)()
+local function CGFF_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local Coordinates = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local TextButton = Instance.new("TextButton")
+		local TextBox = Instance.new("TextBox")
+		local TextLabel = Instance.new("TextLabel")
+		local TextButton_2 = Instance.new("TextButton")
+		local TextLabel_2 = Instance.new("TextLabel")
+	
+		--Properties:
+	
+		Coordinates.Name = "Coordinates"
+		Coordinates.Parent = game.CoreGui
+		Coordinates.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+		Frame.Parent = Coordinates
+		Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Frame.Position = UDim2.new(0.391911775, 0, 0.312670946, 0)
+		Frame.Size = UDim2.new(0, 294, 0, 202)
+	
+		TextButton.Parent = Frame
+		TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextButton.Position = UDim2.new(0.357142866, 0, 0.654694259, 0)
+		TextButton.Size = UDim2.new(0, 83, 0, 50)
+		TextButton.Font = Enum.Font.SourceSans
+		TextButton.Text = "Grab!"
+		TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TextButton.TextSize = 18.000
+	
+		TextBox.Parent = Frame
+		TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextBox.Position = UDim2.new(0.159863949, 0, 0.243030697, 0)
+		TextBox.Size = UDim2.new(0, 200, 0, 50)
+		TextBox.ClearTextOnFocus = false
+		TextBox.Font = Enum.Font.SourceSans
+		TextBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+		TextBox.PlaceholderText = "Position"
+		TextBox.Text = ""
+		TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TextBox.TextScaled = true
+		TextBox.TextSize = 14.000
+		TextBox.TextWrapped = true
+	
+		TextLabel.Parent = Frame
+		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.BackgroundTransparency = 1.000
+		TextLabel.BorderSizePixel = 0
+		TextLabel.Position = UDim2.new(0, 0, 0.872089207, 0)
+		TextLabel.Size = UDim2.new(0, 100, 0, 25)
+		TextLabel.Font = Enum.Font.SourceSans
+		TextLabel.Text = "Q open/minimize"
+		TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel.TextSize = 14.000
+	
+		TextButton_2.Parent = Frame
+		TextButton_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+		TextButton_2.BorderSizePixel = 0
+		TextButton_2.Position = UDim2.new(0.789115667, 0, 0, 0)
+		TextButton_2.Size = UDim2.new(0, 62, 0, 23)
+		TextButton_2.Font = Enum.Font.SourceSans
+		TextButton_2.Text = "Destroy"
+		TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextButton_2.TextScaled = true
+		TextButton_2.TextSize = 14.000
+		TextButton_2.TextWrapped = true
+	
+		TextLabel_2.Parent = Frame
+		TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_2.BackgroundTransparency = 1.000
+		TextLabel_2.BorderSizePixel = 0
+		TextLabel_2.Position = UDim2.new(0.221088439, 0, 0.0556843057, 0)
+		TextLabel_2.Size = UDim2.new(0, 164, 0, 24)
+		TextLabel_2.Font = Enum.Font.SourceSans
+		TextLabel_2.Text = "Glitcher"
+		TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel_2.TextSize = 14.000
+	
+		-- Scripts:
+	
+		local function RRRBXH_fake_script() -- TextButton.LocalScript 
+			local script = Instance.new('LocalScript', TextButton)
+	
+	
+			wait()
+	
+			PositionSize = 0.1
+	
+			local character = game.Players.LocalPlayer.Character
+			local rootPart = character.HumanoidRootPart
+			local textLabel = script.Parent.Parent.TextBox
+			local runService = game:GetService("RunService")
+	
+			script.Parent.MouseButton1Down:Connect(function()
+	
+				local X = math.floor(PositionSize * rootPart.Position.X, 0)
+				local Y = math.floor(PositionSize * rootPart.Position.Y, 0)
+				local Z = math.floor(PositionSize * rootPart.Position.Z, 0)	
+	
+				textLabel.Text = X.. ", ".. Y.. ", ".. Z
+	
+			end)
+		end
+		coroutine.wrap(RRRBXH_fake_script)()
+		local function QIUP_fake_script() -- TextButton_2.LocalScript 
+			local script = Instance.new('LocalScript', TextButton_2)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				script.Parent.Parent.Parent:Destroy()
+			end)
+		end
+		coroutine.wrap(QIUP_fake_script)()
+		local function WJQTOD_fake_script() -- Frame.LocalScript 
+			local script = Instance.new('LocalScript', Frame)
+	
+	
+			wait()
+	
+			local Players = game:GetService("Players")
+			local Player = Players.LocalPlayer
+	
+			local Mouse = Player:GetMouse()
+			local Gui = script.Parent
+			local Open = true
+	
+			function PressQ(key)
+				if (key == "q") then
+					if (Open == false) then
+						Gui.Visible = false
+						Open = true
+					elseif (Open == true) then
+						Gui.Visible = true
+						Open = false
+					end
+				end
+			end
+	
+			Mouse.KeyDown:Connect(PressQ)
+		end
+		coroutine.wrap(WJQTOD_fake_script)()
+		local function LAWM_fake_script() -- TextLabel_2.rainbow 
+			local script = Instance.new('Script', TextLabel_2)
+	
+			while true do 
+				i = 0
+				for n=1,0,-0.05 do 
+					i = i + 0.05
+					script.Parent.TextColor3 = Color3.new(i, 0, n)
+					wait() 
+				end
+				i = 0
+				for n=1,0,-0.05 do 
+					i = i + 0.05
+					script.Parent.TextColor3 = Color3.new(n, i, 0)
+					wait()
+				end
+				i = 0
+				for n=1,0,-0.05 do 
+					i = i + 0.05
+					script.Parent.TextColor3 = Color3.new(0, n, i)
+					wait() 
+				end 
+			end
+		end
+		coroutine.wrap(LAWM_fake_script)()
+		local function NYIMBYL_fake_script() -- Frame.LocalScript 
+			local script = Instance.new('LocalScript', Frame)
+	
+			script.Parent.Selectable = true
+			script.Parent.Active = true
+			script.Parent.Draggable = true
+		end
+		coroutine.wrap(NYIMBYL_fake_script)()
+	
+	end)
+end
+coroutine.wrap(CGFF_fake_script)()
+local function EDJCKP_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Dex Explorer"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Dex Explorer"
+		wait(1)
+	end
+end
+coroutine.wrap(EDJCKP_fake_script)()
+local function HIKLKI_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/glitchrer/glitcher/main/D", true))()
+	end)
+end
+coroutine.wrap(HIKLKI_fake_script)()
+local function OORCN_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	local ayas = true
+	local frame = script.Parent.Parent.menu
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if ayas == true then
+			ayas = false
+			frame:TweenSize(UDim2.new(0, 100,0, 156), "Out", "Quad", 0.5)
+			wait(0.5)
+			frame.scriptmaking.Visible = true
+			frame.server.Visible = true
+			frame.guis.Visible = true
+		else
+			ayas = true
+			frame:TweenSize(UDim2.new(0, 100,0, 0), "Out", "Quad", 0.5)
+			frame.scriptmaking.Visible = false
+			frame.server.Visible = false
+			frame.guis.Visible = false
+	
+		end
+	end)
+end
+coroutine.wrap(OORCN_fake_script)()
+local function ZWWWJ_fake_script() -- server_2.LocalScript 
+	local script = Instance.new('LocalScript', server_2)
+
+	script.Parent:TweenSize(UDim2.new(0, 244,0, 0), "Out", "Quad", 0)
+end
+coroutine.wrap(ZWWWJ_fake_script)()
+local function YVINTH_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "No Legs"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "No Legs"
+		wait(1)
+	end
+end
+coroutine.wrap(YVINTH_fake_script)()
+local function QCUZJ_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.RightUpperLeg:remove()
+		game.Players.LocalPlayer.Character.LeftUpperLeg:remove()
+	end)
+end
+coroutine.wrap(QCUZJ_fake_script)()
+local function SUSA_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Faceless"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Faceless"
+		wait(1)
+	end
+end
+coroutine.wrap(SUSA_fake_script)()
+local function EQTRR_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+			for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+				if (v:IsA("Decal")) then
+					v:Destroy()
+				end
+			end
+	end)
+end
+coroutine.wrap(EQTRR_fake_script)()
+local function OLZPXDU_fake_script() -- guis_2.LocalScript 
+	local script = Instance.new('LocalScript', guis_2)
+
+	script.Parent:TweenSize(UDim2.new(0, 244,0, 0), "Out", "Quad", 0)
+end
+coroutine.wrap(OLZPXDU_fake_script)()
+local function JWQAR_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Remotes (F9)"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Remotes (F9)"
+		wait(1)
+	end
+end
+coroutine.wrap(JWQAR_fake_script)()
+local function OPOYP_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		
+		local hookfunc = hookfunction or replaceclosure or replace_closure;
+	
+		spawn(function()
+			local cGui = game:GetService'CoreGui';
+			local consoleUI = cGui:FindFirstChild('DevConsoleMaster') or cGui:WaitForChild('DevConsoleMaster');
+			local clientLog = consoleUI:FindFirstChild('ClientLog', true);
+			if not clientLog then
+				repeat wait()
+				until consoleUI:FindFirstChild('ClientLog', true);
+				clientLog = consoleUI:FindFirstChild('ClientLog', true);
+			end;
+			for i,v in next, clientLog:GetChildren() do
+				if v:FindFirstChild'msg' then
+					v.InputBegan:Connect(function(input)
+						if input.UserInputType == Enum.UserInputType.MouseButton1 then
+							setclipboard(v.msg.Text);
+						end;
+					end);
+				end;
+			end;
+	
+			clientLog.ChildAdded:Connect(function(obj)
+				if not obj:FindFirstChild'msg' then obj:WaitForChild'msg'; end;
+				obj.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseButton1 then
+						setclipboard(obj.msg.Text);
+					end;
+				end);
+			end);
+		end);
+	
+		local enabled = {
+			BindableEvent	= false,
+			BindableFunction = false,
+			RemoteEvent	  = true,
+			RemoteFunction   = true
+		}
+	
+		local ignore = {
+		--[[ -- I'd personally recommend keeping this commented out, as game scripts can name their remotes these
+		GetSetting = true,
+		GetSelection = true,
+		SelectionChanged = true,
+		GetAwaiting = true
+		--]]
+		}
+	
+		local metatable = assert(getrawmetatable, "needs access to function 'getrawmetatable'")(game)
+		if setreadonly then
+			setreadonly(metatable, false)
+		end
+	
+		local function CountTable(t)
+			local count, key = 0
+			repeat
+				key = next(t, key)
+				if key ~= nil then
+					count = count + 1
+				end
+			until key == nil
+			return count
+		end
+	
+		local Globals = {
+			CFrame = 'CFrame.new(-)';
+			Vector3 = 'Vector3.new(-)';
+			Vector2 = 'Vector2.new(-)';
+			UDim2 = 'UDim2.new(-)';
+			Axis = 'Axis.new(-)';
+			BrickColor = 'BrickColor.new(-)';
+			Color3 = 'Color3.new(-)';
+			ColorSequence = 'ColorSequence.new(-)';
+			Region3 = 'Region3.new(-)';
+			TweenInfo = 'TweenInfo.new(-)';
+			NumberSequence = 'NumberSequence.new(-)';
+			Random = 'Random.new(-)';
+			NumberRange = 'NumberRange.new(-)';
+			Axis = 'Axis.new(-)';
+		};
+	
+		local PrintTable
+		local function ParseObject(object, spacing, scope, checkedTables, keyBool)
+			spacing = keyBool and spacing .. '[' or spacing;
+			local objectType = type(object)
+			if Globals[typeof(object)] then
+				return spacing .. Globals[typeof(object)]:gsub('-', tostring(object));
+			elseif typeof(object) == 'Instance' then
+				return spacing .. object:GetFullName();
+			elseif objectType == "string" then
+				return spacing .. string.format("%q", object)
+			elseif objectType == "nil" then
+				return spacing .. "nil"
+			elseif objectType == "table" then
+				if checkedTables[object] then
+					return spacing .. tostring(object) .. " [recursive table]"
+				else
+					checkedTables[object] = true
+					return spacing .. PrintTable(object, scope + 1, checkedTables)
+				end
+			elseif objectType == "userdata" then
+				if typeof(object) == "userdata" then
+					return spacing .. "userdata"
+				else
+					return spacing .. tostring(object)
+				end
+			else -- userdata, function, boolean, thread, number
+				return spacing .. tostring(object)
+			end
+		end
+	
+	
+	
+		function PrintTable(t, scope, checkedTables)
+			local mt = getrawmetatable(t)
+			local backup = {}
+			if mt and mt ~= t then
+				for i, v in pairs(mt) do
+					rawset(backup, i, v)
+					rawset(mt, i, nil)
+				end
+			end
+	
+			checkedTables = checkedTables or {}
+			scope = scope or 1
+			local result = (checkedTables and "{" or "") .. "\n"
+			local spacing = string.rep("    ", scope)
+			local function parse(index, value)
+				result = result .. ParseObject(index, spacing, scope, checkedTables, true) .. "] = " .. ParseObject(value, "", scope, checkedTables) .. "\n"
+			end
+	
+			if CountTable(t) ~= #t then
+				table.foreach(t, parse) -- I'm very aware this is a deprecated function
+			else
+				for index = 1, select("#", unpack(t)) do
+					parse(index, t[index])
+				end
+			end
+	
+			if mt and mt ~= t then
+				for i, v in pairs(mt) do
+					rawset(mt, rawget(backup, i), v)
+				end
+			end
+	
+			return result .. string.sub(spacing, 4, #spacing - 1) .. (checkedTables and "}" or "")
+		end
+	
+		local methods = {
+			BindableEvent = "Fire",
+			BindableFunction = "Invoke",
+			RemoteEvent = "FireServer",
+			RemoteFunction = "InvokeServer"
+		}
+	
+	
+		local __namecall = __namecall or metatable.__namecall
+		local __index = __index or metatable.__index
+		if getgenv then
+			if removeSpy then
+				removeSpy()
+			end
+			getgenv().__namecall = __namecall
+			getgenv().__index = __index
+			getgenv().removeSpy = function()
+				getgenv().removeSpy = nil
+				metatable.__namecall = __namecall
+				metatable.__index = __index
+			end
+		end
+	
+		local function LocalizedRemoteCallback(class)
+			return newcclosure(function(self, ...)
+				if typeof(self) ~= "Instance" then
+					error(select(2, pcall(methods[class], self)), 0)
+				end
+	
+				if self.ClassName ~= class then
+					error(select(2, pcall(methods[class], self)), 0)
+				end
+	
+				local arguments = {...};
+				local result	= {};
+	
+				local callerScript = rawget(getfenv(0), "script")
+				callerScript = typeof(callerScript) == "Instance" and callerScript or nil
+	
+				if enabled[self.ClassName] and (not ignore[self.Name]) then
+					print(string.format(
+						"%s called!\nFrom Script: %s\nPath: %s\nArguments: %s\nReturn: %s",
+						self.ClassName,
+						tostring(not callerScript and "Not Found" or callerScript:GetFullName()),
+						(not self.Parent and "[NIL]: " or "") .. self:GetFullName(),
+						CountTable(arguments) == 0 and "None!" or PrintTable(arguments),
+						CountTable(result) == 0 and "None!" or PrintTable(result)
+						))
+				end
+	
+				return unpack({methods[class](self, ...)})
+			end)
+		end
+	
+		LocalizedRemoteCallback  = newcclosure(LocalizedRemoteCallback)
+	
+		for className, func in next, methods do
+			methods[className] = hookfunc(Instance.new(className)[func], LocalizedRemoteCallback(className))
+		end
+	
+		local function IsAuthorized(self, index)
+			local map = {
+				BindableEvent = "Fire",
+				BindableFunction = "Invoke",
+				RemoteEvent = "FireServer",
+				RemoteFunction = "InvokeServer"
+			}
+	
+	
+			if (not map[self.ClassName]) then
+				return false
+			end
+	
+			if (not rawequal(map[self.ClassName], index)) then
+				return false;
+			end  
+	
+			if (ignore[self.Name]) or (not enabled[self.ClassName]) then
+				return false
+			end
+	
+			return true;
+		end
+	
+		local LuaU = isluau()
+	
+		local RemoteCallback = newcclosure(function(self, ...)
+			if typeof(self) ~= "Instance" then
+				return error(select(2, pcall(__index, self))) -- magic
+			end
+	
+			local arguments = {...}	
+			local result = {}
+			local callerScript = rawget(getfenv(0), "script")
+			callerScript = typeof(callerScript) == "Instance" and callerScript or nil
+			print(string.format(
+				"%s called!\nFrom Script: %s\nPath: %s\nArguments: %s\nReturn: %s",
+				self.ClassName,
+				tostring(not callerScript and "Not Found" or callerScript:GetFullName()),
+				(not self.Parent and "[NIL]: " or "") .. self:GetFullName(),
+				CountTable(arguments) == 0 and "None!" or PrintTable(arguments),
+				CountTable(result) == 0 and "None!" or PrintTable(result)
+				))
+			return unpack({methods[self.ClassName](self, ...)})
+		end)
+	
+		function metatable:__namecall(...)
+			local arguments = {...}
+			local index = LuaU and getnamecallmethod() or table.remove(arguments)
+			if IsAuthorized(self, index) then
+				return RemoteCallback(self, unpack(arguments))
+			end
+			return __namecall(self, ...)
+		end
+	
+		metatable.__namecall = newcclosure(metatable.__namecall)
+	end)
+end
+coroutine.wrap(OPOYP_fake_script)()
+local function FFMMK_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Building GUI"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Building GUI"
+		wait(1)
+	end
+end
+coroutine.wrap(FFMMK_fake_script)()
+local function UYMZ_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	script.Parent.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(UYMZ_fake_script)()
+local function YCCNG_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	while true do
+		wait(1)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Dex Explorer"
+		wait(2)
+		script.Parent.Text = "Glitcher"
+		wait(0.2)
+		script.Parent.Text = "Dex Explorer"
+		wait(1)
+	end
+end
+coroutine.wrap(YCCNG_fake_script)()
+local function LJDC_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/glitchrer/glitcher/main/D", true))()
+	end)
+end
+coroutine.wrap(LJDC_fake_script)()
+local function VTOYJQU_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game["Run Service"].RenderStepped:connect(function()
+			settings().Physics.AllowSleep = false
+			setsimulationradius(math.huge*math.huge,math.huge*math.huge)
+		end)
+	
+		wait(1)
+		_G.CheckCustomBuilds = true
+		_G.DefaulBuilds = true
+		_G.Barrier = true
+		_G.bridge2 = true
+		_G.bridge4 = true
+		_G.ladder = true
+		_G.Nazi = true
+		_G.penis = true
+		_G.platform = true
+		_G.stairs = true
+		_G.BigPP = true
+	
+		_G.RGB = false
+		_G.RGBswitchDelay = .4
+	
+		_G.RejoinWaitDelayForReExecute = 5  -- tell how long the script will wait before rejoining (for synapse script queing)
+	
+		loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
+	
+	script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(VTOYJQU_fake_script)()
+local function LIAVQ_fake_script() -- foKazpWbFD.KeyPress 
+	local script = Instance.new('LocalScript', foKazpWbFD)
+
+	
+	wait()
+	
+	local Players = game:GetService("Players")
+	local Player = Players.LocalPlayer
+	
+	local Mouse = Player:GetMouse()
+	local Gui = script.Parent
+	local Open = false
+	local cd = 0.6
+	
+	function PressQ(key)
+		if (key == "q") then 
+			if (Open == false) then
+				local MenuScreen = script.Parent
+				MenuScreen:TweenSize(UDim2.new(0, 370,0, 0), "Out", "Quad", 0.5)
+				script.Parent.Frame.Visible = false
+				Open = true
+			elseif (Open == true) then
+				Gui:TweenSize(UDim2.new(0, 370,0, 201), "Out", "Quad", 0.5)
+				wait(0.5)
+				script.Parent.Frame.Visible = true
+				Open = false
+			end
+		end
+	end
+		
+	Mouse.KeyDown:Connect(PressQ)
+end
+coroutine.wrap(LIAVQ_fake_script)()
+local function OIAP_fake_script() -- foKazpWbFD.Dragify 
+	local script = Instance.new('LocalScript', foKazpWbFD)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(OIAP_fake_script)()
+local function OJYJOYH_fake_script() -- S.Â뺭ݩ"𒰲 
+	local script = Instance.new('LocalScript', S)
+
+	local player = game.Players.LocalPlayer
+
+	local NotificationBindable = Instance.new("BindableFunction")
+	
+	
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "Glitcher";
+			Text = "Welcome!";
+			Duration = 5;
+			Callback = NotificationBindable;
+		})
+		script.Parent.XVpvw8r8UK:Destroy()
+		script:Destroy()
+	--XVpvw8r8UK = notverified
+	--foKazpWbFD = frame
+end
+coroutine.wrap(OJYJOYH_fake_script)()
+local function NPIYQ_fake_script() -- TextButton_10.Script 
+	local script = Instance.new('Script', TextButton_10)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(NPIYQ_fake_script)()
+local function AAZKD_fake_script() -- TextLabel_4.rainbow 
+	local script = Instance.new('Script', TextLabel_4)
+
+	while true do 
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(i, 0, n)
+	wait() 
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(n, i, 0)
+	wait()
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(0, n, i)
+	wait() 
+	end 
+	end
+end
+coroutine.wrap(AAZKD_fake_script)()
+local function IESNHBJ_fake_script() -- TextLabel_5.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_5)
+
+	while true do wait(0.005)--Loop
+		script.Parent.Text="Glitcher"--Changes The glitch text to the right text
+		script.Parent.Rotation=script.Parent.Rotation+math.random(-1,1)--Rotates it Randomly from -1,1
+		if script.Parent.Rotation>=25.001 then--Caps Rotation At 25
+			script.Parent.Rotation=25
+		else if script.Parent.Rotation<=-25.001 then --Caps Rotation At -25
+				script.Parent.Rotation=-25
+			end
+		end
+	end
+end
+coroutine.wrap(IESNHBJ_fake_script)()
+local function GDVSAP_fake_script() -- TextLabel_5.rainbow 
+	local script = Instance.new('Script', TextLabel_5)
+
+	while true do 
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(i, 0, n)
+	wait() 
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(n, i, 0)
+	wait()
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(0, n, i)
+	wait() 
+	end 
+	end
+end
+coroutine.wrap(GDVSAP_fake_script)()
+local function WFAY_fake_script() -- Frame_3.LocalScript 
+	local script = Instance.new('LocalScript', Frame_3)
+
+	wait(1)
+	script.Parent:TweenSize(UDim2.new(0, 270,0, 31))
+	wait(2)
+	script.Parent.Visible = false
+	script.Parent.Parent.bck.Visible = false
+	script.Parent.Parent.TextLabel.Visible = false
+	script.Parent.Parent:TweenSize(UDim2.new(0, 325,0, 0))
+	wait(1)
+	script.Parent.Parent.Parent.foKazpWbFD:TweenSize(UDim2.new(0, 370,0, 201), "Out", "Quad", 2)
+	wait(2)
+	script.Parent.Parent.Parent.foKazpWbFD.Frame.Visible = true
+	script.Parent.Parent:Destroy()
+end
+coroutine.wrap(WFAY_fake_script)()
